@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial scale="1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    
+    <header>
+        <i><h1>Hii! I am Chetanya Girotra</h1></i>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <hr>
+
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hiiiii, I'm a Computer Science student who loves turning ideas into simple, responsive websites.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="./images/profile.jpg"
+            alt="Profile Picture-Chetanya Girotra" width="200">
+                <div>
+                <p>Hiii, I am a beginner web developer learning HTML, CSS, Python and Javascript.
+                    <br>
+                I am passionate about building a creative project and a secure future.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="projects">
+             <h2>Projects</h2>
+             <article>
+                <h3>Project 1: Weather App</h3>
+                <p>A web app that shows the current temperature and conditions for any city a user searches.</p>
+            </article>
+            
+            <article>
+                <h3>Project 2: To-Do List</h3>
+                <p>A simple task manager where users can add, complete, and delete daily tasks.</p>
+            </article>
+            
+            <article>
+                <h3>Project 3: Quiz Application</h3>
+                <p>An interactive multiple-choice quiz that tracks answers and shows the final score.</p>
+            </article>
+        </section>
+        <hr>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="5" cellpadding="5" cellspacing="5">
+                <thead>
+                    <tr>
+                        <th>Skill/Tool</th>
+                        <th>Proficiency Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Advanced</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>JavaScrpit</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <section id="contact">
+            <h2>Contact Me!</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">
+                        Name:<input type="text" name="name" id="name" placeholder="Enter Your Name:"
+                        reqquired pattern="[A-Za-z]+">
+                    </label> 
+                </div>
+                <br>
+                <div>
+                    <label for="email">
+                        Email:<input type="email" name="email" id="email" placeholder="Enter
+                        your email address" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="message">
+                        Message:<textarea id="message" name="message" placeholder="Write your message
+                        here...." required></textarea>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>My Portfolio end here...Thank youu for visiting😊</p>
+    </footer>
+</body>
+</html>
